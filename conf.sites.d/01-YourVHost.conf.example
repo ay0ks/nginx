@@ -1,0 +1,20 @@
+server {
+    listen 80;
+    listen 443 ssl;
+    http2 on;
+    http3 on;
+    http3_hq on;
+    quic_gso on;
+    # If you wan't to use the QUIC host key
+    #   quic_host_key "/etc/nginx/certs.d/Ay0ksWtfQuic.key";
+    quic_retry on;
+    server_name YourVHost;
+
+    access_log "/etc/nginx/logs.d/access.log" main;
+
+    include "/etc/nginx/conf.extra.d/YourVHostSsl.conf";
+
+    location / {
+        proxy_pass http://localhost:3000;
+    }
+}
