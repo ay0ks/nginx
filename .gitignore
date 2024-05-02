@@ -1,4 +1,2 @@
-# nuh uh
-certs.d/*
-logs.d/*
+# Avoid pushing Diffie-Hellman parameter key
 dhparam.pem
