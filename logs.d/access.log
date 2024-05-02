@@ -8102,3 +8102,9 @@
 172.71.183.16 - - [02/May/2024:07:55:31 +0000]  204 POST /api/v2/workspaces/30374e81-0ab4-4461-93b3-be37aff1d3a1/usage HTTP/2.00-Go-http-client/2.02001:9e8:5d9c:2200:be24:11ff:fe22:d992
 172.71.98.92 - - [02/May/2024:07:56:02 +0000]  204 POST /api/v2/workspaces/66fd6d7a-751c-4ef1-9328-28c76e753684/usage HTTP/2.00-Go-http-client/2.02001:9e8:5d9c:2200:be24:11ff:fe22:d992
 162.158.151.143 - - [02/May/2024:07:56:06 +0000]  200 GET /api/v2/deployment/stats HTTP/2.0240-Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36212.58.120.158
+172.71.183.16 - - [02/May/2024:07:56:31 +0000]  204 POST /api/v2/workspaces/30374e81-0ab4-4461-93b3-be37aff1d3a1/usage HTTP/2.00-Go-http-client/2.02001:9e8:5d9c:2200:be24:11ff:fe22:d992
+172.71.98.92 - - [02/May/2024:07:57:02 +0000]  204 POST /api/v2/workspaces/66fd6d7a-751c-4ef1-9328-28c76e753684/usage HTTP/2.00-Go-http-client/2.02001:9e8:5d9c:2200:be24:11ff:fe22:d992
+172.71.182.183 - - [02/May/2024:07:57:21 +0000]  200 GET /derp/latency-check HTTP/2.00-Go-http-client/1.12001:9e8:5d9c:2200:be24:11ff:fe22:d992
+172.71.183.16 - - [02/May/2024:07:57:31 +0000]  204 POST /api/v2/workspaces/30374e81-0ab4-4461-93b3-be37aff1d3a1/usage HTTP/2.00-Go-http-client/2.02001:9e8:5d9c:2200:be24:11ff:fe22:d992
+172.71.98.92 - - [02/May/2024:07:58:02 +0000]  204 POST /api/v2/workspaces/66fd6d7a-751c-4ef1-9328-28c76e753684/usage HTTP/2.00-Go-http-client/2.02001:9e8:5d9c:2200:be24:11ff:fe22:d992
+172.71.183.16 - - [02/May/2024:07:58:31 +0000]  204 POST /api/v2/workspaces/30374e81-0ab4-4461-93b3-be37aff1d3a1/usage HTTP/2.00-Go-http-client/2.02001:9e8:5d9c:2200:be24:11ff:fe22:d992
