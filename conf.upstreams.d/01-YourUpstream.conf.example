@@ -1,0 +1,8 @@
+upstream YourUpstreamSsh {
+    server 123.123.123.123:22;
+}
+
+server {
+    listen 50022;
+    proxy_pass YourUpstreamSsh;
+}
