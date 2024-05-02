@@ -13,7 +13,6 @@
 sudo su
 cd /etc
 git clone https://github.com/ay0ks/nginx.git
-cd nginx
 ```
 ```bash
 systemctl restart nginx
