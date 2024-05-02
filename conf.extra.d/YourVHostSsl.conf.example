@@ -1,0 +1,6 @@
+ssl_certificate "/etc/nginx/certs.d/YourVHost.pem";
+ssl_certificate_key "/etc/nginx/certs.d/YourVHost.key";
+add_header Strict-Transport-Security "max-age=60; includeSubDomains" always;
+# Set root certificate if required, example: 
+# Cloudflare
+#   ssl_trusted_certificate "/etc/nginx/certs.d/CloudflareRoot.pem";
