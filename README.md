@@ -1,5 +1,4 @@
 ## nginx
------
 ```bash
 sudo su
 cd /etc
