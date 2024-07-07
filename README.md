@@ -7,7 +7,7 @@
  - `conf.sites.d`: Virtual hosts go here.
  - `conf.upstreams.d`: Upstream configurations go here.
  - `conf.modules.d`: Symbolic link to `/usr/lib/nginx/modules`, nginx modules should put their files here (you can symlink this to `modules` to avoid errors when installing.)
- - `logs.d`: Nginx logs go here, you also should your vhost or upstream configurations to store logs here (you can link this to `/var/log` if you want.)
+ - `logs.d`: Nginx logs go here, you also should make your vhost or upstream configurations to store logs here (you can link this to `/var/log` if you want.)
 
 ```bash
 sudo su
