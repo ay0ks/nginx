@@ -5,7 +5,7 @@ server {
     http3 on;
     http3_hq on;
     quic_gso on;
-    # If you wan't to use the QUIC host key
+    # If you want to use the QUIC host key
     #   quic_host_key "/etc/nginx/certs.d/Ay0ksWtfQuic.key";
     quic_retry on;
     server_name YourVHost;
